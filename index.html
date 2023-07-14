@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Camera</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accessories">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero-image">
+      <div class="hero-text">
+        <h1>Welcome to our Camera Store</h1>
+        <p>Discover the best cameras and accessories.</p>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </section>
+
+    <section id="home">
+      <div class="py-5">
+        <h3 class="text-center">It's your choice !!!</h3>
+        <h2 class="text-center pt-3">Pick The Best</h2>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade text-center">
+          <img src="Assets/slide1.jpg" style="width:80%">
+        </div>
+
+        <div class="mySlides fade text-center">
+          <img src="Assets/slide2.jpg" style="width:80%">
+        </div>
+
+        <div class="mySlides fade text-center">
+          <img src="Assets/slide3.jpg" style="width:80%">
+        </div>
+
+        <div class="mySlides fade text-center">
+          <img src="Assets/slide4.jpg" style="width:80%">
+        </div>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Popular Products</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam1.jpg" class="card-img-top" alt="Camera 1">
+              <div class="card-body">
+                <h5 class="card-title">Canon EOS R6 Mark II</h5>
+                <h3 class="card-title text-danger">Best Full-Frame Camera Overall</h3>
+                <p class="card-text text-justify">The Canon EOS R6 Mark II is our favorite full-frame camera for most
+                  people. It snaps attractive 24MP photos and has a class-leading autofocus system that smartly
+                  recognizes people, animals, and vehicles. With 12fps (mechanical) and 40fps (electronic shutter)
+                  bursts available, it's especially suitable for action shots, while stabilized 4K60 video should please
+                  filmmakers and vloggers.If you want a full-frame camera, the R6 Mark II should be near the top of your
+                  list. The big sensor means you can get soft, defocused backgrounds.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="https://www.amazon.com/Canon-EOS-Mark-Mirrorless-Oversampling/dp/B0BL7ZVY78?tag=p00935-20&ascsubtag=047DquIOP6kcDb0ImHN9kbl"
+                      target="_blank" class="text-danger">$2,499.00/-<span class="text-dark"> at Amazone</span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam2.jpg" class="card-img-top" alt="Camera 2">
+              <div class="card-body">
+                <h5 class="card-title">Canon EOS R7</h5>
+                <h3 class="card-title text-danger">Best Crop-Sensor Camera for Moving Subjects</h3>
+                <p class="card-text text-justify">The Canon EOS R7 is a mirrorless camera tailor-made for photographers
+                  who want to capture sports, wildlife, and other subjects that call for fast, accurate autofocus. And
+                  the R7 excels at identifying people, pets, wildlife, and race cars. The 32.5MP APS-C format image
+                  sensor matches well with telephoto lenses, offers plenty of resolution for crops, and supports 4K60
+                  video for cinema and vlogs. Weather-protected, magnesium construction makes the Canon EOS R7 a camera
+                  you can take out into the world.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="https://www.amazon.com/dp/B0B27KKNZV?tag=p00935-20&ascsubtag=04GYQIfYVLum2bbkD4zqljW"
+                      target="_blank" class="text-danger">$1,399.00/-<span class="text-dark"> at Amazone</span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam3.jpg" class="card-img-top" alt="Camera 2">
+              <div class="card-body">
+                <h5 class="card-title">GoPro Hero11 Black</h5>
+                <h3 class="card-title text-danger">Best Action Camera</h3>
+                <p class="card-text text-justify">
+                  The GoPro Hero11 Black is the camera for video-first creators who want to document outdoor adventures,
+                  dives, extreme sports, or just vlog. It supports 5.3K60 and 4K120 resolution, records incredibly
+                  stable footage without the need for a gimbal, and is small enough to mount pretty much anywhere. The
+                  8:7 format sensor offers flexibility to pull out 16:9 and 9:16 video from the same clip. Optional
+                  accessories like the Media Mod cage and microphone, as well as the ultra-wide Max Lens mod, make it a
+                  bit more versatile than budget action cams. Also like that it's waterproof to 33 feet.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="https://www.amazon.com/GoPro-HERO11-Black-Waterproof-Stabilization/dp/B0B96H7LGX?tag=p00935-20&ascsubtag=00x6hTrvHQqSCyKDybs7MtU"
+                      target="_blank" class="text-danger">$399.00/-<span class="text-dark"> at Amazone</span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam4.jpg" class="card-img-top" alt="Camera 2">
+              <div class="card-body">
+                <h5 class="card-title">Panasonic Lumix DC-S5</h5>
+                <h3 class="card-title text-danger">Best Entry-Level Full-Frame for 4K</h3>
+                <p class="card-text text-justify">The Panasonic Lumix DC-S5 is one of the more affordable full-frame
+                  cameras available and we especially like its extra-wide 20-60mm kit zoom, which is particularly useful
+                  for cityscapes, landscapes, and vlogs. For the price, it's also hard to beat the full-frame 24MP
+                  photos and 10-bit 4K; we really love the way the S5 handles, too. On the downside, iPanasonic Lumix
+                  DC-S5's L-Mount lens system isn't as fully-formed as rivals Canon or Sony.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="https://www.amazon.com/Panasonic-Mirrorless-Recording-L-Mount-DC-S5BODY/dp/B08FF55MV4?tag=p00935-20&ascsubtag=06tIGz9EqNrL3954e7D1KCz"
+                      target="_blank" class="text-danger">$1,297.99/-<span class="text-dark"> at Amazone</span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam5.jpg" class="card-img-top" alt="Camera 2">
+              <div class="card-body">
+                <h5 class="card-title">Sony a6400</h5>
+                <h3 class="card-title text-danger">Best APS-C Sony for Photography</h3>
+                <p class="card-text text-justify">Fresher cameras from other manufacturers give it a run for its money,
+                  but the crop-sensor Sony a6400 still offers capable subject tracking, 11fps drive, and 4K30 video. The
+                  huge library of E-mount lenses it supports is also a major selling point because it gives you so many
+                  options to expand your creativity. If you want access to the E-mount for your photography or mixed
+                  media creations, this is the best way to get into the Sony mirrorless system.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="#"><span class="text-dark"></span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Assets/cam6.jpg" class="card-img-top" alt="Camera 2">
+              <div class="card-body">
+                <h5 class="card-title">Sony a7 IV</h5>
+                <h3 class="card-title text-danger">Best Full-Frame Lens Library</h3>
+                <p class="card-text text-justify">The Sony a7 IV is a real do-it-all mirrorless camera. It sports a 33MP
+                  full-frame sensor, a plus for wildlife photogs who want to crop but don't want to spend big on a 7R IV
+                  model, superb tracking autofocus with 10fps, and stabilized 10-bit 4K60 video for vloggers. There are
+                  loads of lenses available too, with plenty of both affordable and high-end options. Third-party lens
+                  makers, including Sigma and Tamron, bolster Sony's FE lens line.</p>
+                <div class="row">
+                  <div class="col-md-8">
+                    <a href="https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Camera/dp/B09JZT6YK5?tag=p00935-20&ascsubtag=05n1aAnsYVhLodvHUMYJDf6"
+                      target="_blank" class="text-danger">$2,398.00/-<span class="text-dark"> at Amazone</span></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="accessories">
+      <div class="container">
+        <h2 class="text-center pb-4">Accessories</h2>
+        <div class="row">
+          <div class="col-md-2">
+            <a href="https://www.croma.com/cameras-accessories/camera-accessories/camera-bags-pouches/c/552"
+              target="_blank">
+              <img src="Assets/access1.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Bags</h6>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.croma.com/cameras-accessories/camera-accessories/camera-batteries-chargers/c/551"
+              target="_blank">
+              <img src="Assets/access2.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Batteries and Chargers</h6>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.croma.com/computers-tablets/storage-devices/memory-cards/c/935" target="_blank">
+              <img src="Assets/access3.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Memory Cards</h6>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.croma.com/cameras-accessories/camera-accessories/selfie-sticks-gimbals/c/945"
+              target="_blank">
+              <img src="Assets/access4.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Selfie Sticks and Gimbals</h6>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.croma.com/cameras-accessories/camera-lens/c/545" target="_blank">
+              <img src="Assets/access5.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Camera Lens</h6>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.croma.com/cameras-accessories/camera-accessories/flash-flash-accessories/c/14"
+              target="_blank">
+              <img src="Assets/access6.webp" alt="Accessory 1" width="100%" />
+            </a>
+            <h6 class="text-center pb-4">Flash Accessories</h6>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+          <div class="single_footer">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press Releases</a></li>
+              <li><a href="#">Product Details</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="single_footer single_footer_address">
+            <h4>Let Us Help You</h4>
+            <ul>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Returns Centre</a></li>
+              <li><a href="#">Purchase Protection</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="single_footer single_footer_address">
+            <h4>Connect With Us</h4>
+            <div class="signup_form">
+              <form action="#" class="subscribe">
+                <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="social_profile">
+            <ul>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+          <p class="copyright text-center mt-2 pt-4">Copyright © 2023 AJ Creations.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
